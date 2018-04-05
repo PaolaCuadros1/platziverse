@@ -1,0 +1,27 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT Plataform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaolaCuadros1/platziverse.git"
+  },
+  "author": "Paola Cuadros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaolaCuadros1/platziverse/issues"
+  },
+  "homepage": "https://github.com/PaolaCuadros1/platziverse#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.5"
+  }
+}
